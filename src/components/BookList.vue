@@ -14,9 +14,9 @@ export default {
     return {
       title: 'All Books',
       books:[
-        {title:'Self-Reliance', author:'Ralph'},
-        {title:'Self-Reliance2', author:'Hari'},
-        {title:'Self-Reliance3', author:'Linta'},
+       {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+    {title: 'American Gods', author: 'Neil Gaiman'},
+    {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
       ]
     };
   },
@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 ul{
-  list-style-type:normal;
+  list-style-type:none;
   padding:0;
 }
 li{
