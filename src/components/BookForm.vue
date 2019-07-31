@@ -14,7 +14,7 @@
   export default {
     name: 'BookForm',
     props: ['books']
-    },
+    
     data(){
       return{
         bookTitle ='',
@@ -26,6 +26,7 @@
         this.$emit('addBook', bookTitle, bookAuthor);
       }
     }
+  }
 
 </script>
 
